@@ -72,7 +72,6 @@ int main() {
 	cout << "rl max:" << rl_max_length << endl;
 	int true_length = max(lr_max_length, rl_max_length);
 	cout << "true max:" << true_length << endl;
-
 }
 
 
