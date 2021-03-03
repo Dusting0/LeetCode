@@ -6,7 +6,6 @@ class Solution {
 private:
     bool isPowOf2(int n) {
         if(!n) return false;
-        int b;
         while(n!=1) {
             if(n & 1) {
                 return false;
